@@ -6,7 +6,7 @@
 
 @layer components {
   .btn-sm {
-    @apply px-11 py-3 whitespace-nowrap text-darkBlue
+    @apply px-5 py-1 md:px-11 md:py-3 whitespace-nowrap text-darkBlue
     font-medium hover:text-red ease-in-out duration-150
     rounded-full border-transparent border-solid border hover:border-red
   }
@@ -24,8 +24,8 @@
   .container-info {
     @apply max-w-[555px] h-max md:text-left text-center mx-auto
   }
-  .info-h1 {
-    @apply md:mb-5 mb-3 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-medium
+  .info-h {
+    @apply md:mb-5 mb-3 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-[25px]
   }
   .info-p {
     @apply lg:mb-12 mb-5 font-medium
