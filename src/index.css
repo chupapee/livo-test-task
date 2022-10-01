@@ -2,6 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+@layer components {
+  .btn-sm {
+    @apply px-11 py-3 whitespace-nowrap text-darkBlue
+    font-medium hover:text-red ease-in-out duration-150
+    rounded-full border-transparent border-solid border hover:border-red
+  }
+  .btn-lg {
+    @apply border border-solid rounded-[10px] border-red
+    py-3 px-12 md:py-4 md:px-20 text-red font-bold transition-all duration-300 ease-in-out
+    hover:text-white hover:bg-red hover:shadow-md
+  }
+  .container-section {
+    @apply md:grid md:grid-cols-2 h-fit items-center
+  }
+  .container-img {
+    @apply w-full
+  }
+  .container-info {
+    @apply max-w-[555px] h-max md:text-left text-center mx-auto
+  }
+  .info-h1 {
+    @apply md:mb-5 mb-3 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-medium
+  }
+  .info-p {
+    @apply lg:mb-12 mb-5 font-medium
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +45,6 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 16px;
 }

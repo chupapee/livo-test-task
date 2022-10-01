@@ -1,18 +1,15 @@
-import { ButtonLg } from "../../shared/buttonLg"
 import { Img } from "./Img"
 
 export const About = () => {
   return (
     <>
-      <section className="flex">
-        <div>
-          <div className="w-full">
-            <h1 className="mb-5 font-medium leading-[1.2] text-darkBlue text-lg">Want anything to be easy with LaslesVPN.</h1>
-            <p className="mb-12 font-medium">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
-          </div>
-          <ButtonLg>Get Started</ButtonLg>
+      <section className="container-section">
+        <div className="container-info">
+          <h1 className="info-h1">Want anything to be easy with LaslesVPN.</h1>
+          <p className="info-p">Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us.</p>
+          <button className="btn-lg">Get Started</button>
         </div>
-        <div className="w-full mb-24">
+        <div className="container-img">
           <Img />
         </div>
       </section>

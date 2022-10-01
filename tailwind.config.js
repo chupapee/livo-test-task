@@ -17,8 +17,10 @@ module.exports = {
         lg: '50px',
       },
       boxShadow: {
-        'primary': '0px 25px 50px -20px #F53838',
-      }
+        'md': '0px 25px 50px -20px #F53838',
+        'widget': '0px 25px 50px -30px #F53838',
+        'primary': '0px 20px 50px -20px #F53838',
+      },
     },
   },
   plugins: [
