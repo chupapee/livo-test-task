@@ -25,10 +25,10 @@
     @apply max-w-[555px] h-max md:text-left text-center mx-auto
   }
   .info-h {
-    @apply md:mb-5 mb-3 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-[25px]
+    @apply mb-5 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-[25px]
   }
   .info-p {
-    @apply lg:mb-12 mb-5 font-medium
+    @apply mb-12 font-medium
   }
 }
 

@@ -5,14 +5,14 @@ export const Features = () => {
   const features = ['Powerfull online protection.', 'Internet without borders.', 'Supercharged VPN', 'No specific time limits.']
   return (
     <>
-      <section className="container-section md:mb-[200px] mb-[80px]">
+      <section className="container-section md:mb-[200px] mb-[140px]">
         <div className="container-img">
           <Img />
         </div>
-        <div className="container-info mt-5">
+        <div className="container-info mt-16 md:mt-0">
           <h1 className="info-h">We Provide Many Features You Can Use</h1>
           <p className="info-p">You can explore the features that we provide with fun and have their own functions each feature.</p>
-          <div className="mb-5 flex flex-col">
+          <div className=" flex flex-col">
             <div className="mx-auto my-0 md:m-0">
             {features.map((item) => (
               <div className="flex gap-3 mb-[15px]" key={item}>

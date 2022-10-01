@@ -2,6 +2,7 @@ import { About } from '../sections/about';
 import { Features } from '../sections/features';
 import { Header } from '../sections/header';
 import { Pricing } from '../sections/pricing';
+import { Testimonials } from '../sections/testimonials';
 import { Stats } from '../widgets/stats';
 
 export function App() {
@@ -15,6 +16,7 @@ export function App() {
           <Stats />
           <Features />
           <Pricing />
+          <Testimonials />
         </div>
       </div>
     </>
