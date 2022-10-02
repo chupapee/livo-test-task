@@ -2,8 +2,7 @@ import { list } from "./model"
 
 export const Stats = () => {
   return (
-    <div className="w-full shadow-widget shadow-lightGray
-          rounded-[10px] h-[250px] md:h-[200px] flex justify-center my-[100px]">
+    <div className="container-widget flex justify-center my-[100px]">
       <ul className="sm:flex-row items-center justify-center flex-col flex gap-[10px] w-full">
         {list.map(( {icon, num, description, id} ) => (
           <div key={id} className="w-[40%] md:w-[33%] first:border-none

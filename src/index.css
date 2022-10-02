@@ -24,6 +24,10 @@
   .container-info {
     @apply max-w-[555px] h-max md:text-left text-center mx-auto
   }
+  .container-widget {
+    @apply w-full shadow-widget shadow-lightGray
+    rounded-[10px] h-[250px] md:h-[200px]
+  }
   .info-h {
     @apply mb-5 font-medium leading-[1.2] text-darkBlue lg:text-lg md:text-medium text-[25px]
   }

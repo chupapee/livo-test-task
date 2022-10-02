@@ -5,6 +5,7 @@ import { Header } from '../sections/header';
 import { Pricing } from '../sections/pricing';
 import { Testimonials } from '../sections/testimonials';
 import { Stats } from '../widgets/stats';
+import { SubscribeUs } from '../widgets/subscribeUs';
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
           <Pricing />
           <Testimonials />
           <Customers />
+          <SubscribeUs />
         </div>
       </div>
     </>
