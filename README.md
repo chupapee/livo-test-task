@@ -13,7 +13,7 @@
 
 ### Демонстрация по ссылке: [LaslesVPN](http://test-task-livo.vercel.app/)
 
-<p align='center'>  
+<p>  
   <img height='300px' src='https://i.ibb.co/q13YNbz/mobile.jpg' alt='mobileSize'/>
   <img src='https://i.ibb.co/ryG48vr/desktop.jpg' alt='desktopSize'/>
 </p>
