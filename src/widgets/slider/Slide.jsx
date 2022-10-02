@@ -18,7 +18,7 @@ export const Slide = ({
           </div>
           <div className='self-center flex gap-[10px]'>
             <span className='text-darkBlue text-primary'>4.5</span>
-            <img className='w-[16px]' src="./customers/star.svg" alt="rating" />
+            <img className='w-[16px]' src="./assets/customers/star.svg" alt="rating" />
           </div>
         </div>
           <div className="overflow-hidden">

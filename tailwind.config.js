@@ -24,13 +24,13 @@ module.exports = {
         'primary': '0px 20px 50px -20px #F53838',
       },
       keyframes: {
-        smoothly: {
+        smooth: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 },
         }
       },
       animation: {
-        smoothly: "smoothly 2.5s ease-in-out"
+        smooth: "smooth 2.5s ease-in-out"
       }
     },
   },

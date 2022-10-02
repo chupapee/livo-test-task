@@ -11,10 +11,10 @@ import { SubscribeUs } from '../widgets/subscribeUs';
 export function App() {
   return (
     <>
-      <div className='max-w-[1140px] mx-auto h-[100px] absolute top-0 left-0 right-0 animate-smoothly'>
+      <div className='max-w-[1140px] mx-auto h-[100px] absolute top-0 left-0 right-0 animate-smooth'>
         <Header />
       </div>
-      <div className='max-w-[1155px] px-[15px] pt-0 mx-auto my-0 z-10 relative animate-smoothly'>
+      <div className='max-w-[1155px] px-[15px] pt-0 mx-auto my-0 z-10 relative animate-smooth'>
         <About />
         <Stats />
         <Features />

@@ -30,7 +30,7 @@ export const Slider = () => {
       >
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-1.svg'
+            imgUrl='./assets/customers/cust-1.svg'
             name='Viezh Robert'
             location='Warsaw, Poland'
             text='“Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best”.'
@@ -38,7 +38,7 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-2.svg'
+            imgUrl='./assets/customers/cust-2.svg'
             name='Yessica Christy'
             location='Shanxi, China'
             text='“I like it because I like to travel far and still can connect with high speed.”.'
@@ -46,7 +46,7 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-3.svg'
+            imgUrl='./assets/customers/cust-3.svg'
             name='Kim Young Jou'
             location='Seoul, South Korea'
             text='“This is very unusual for my business that currently requires a virtual private network that has high security.”.'
@@ -54,7 +54,7 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-3.svg'
+            imgUrl='./assets/customers/cust-3.svg'
             name='Kim Young Jou'
             location='Seoul, South Korea'
             text='“This is very unusual for my business that currently requires a virtual private network that has high security.”.'
@@ -62,7 +62,7 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-3.svg'
+            imgUrl='./assets/customers/cust-3.svg'
             name='Kim Young Jou'
             location='Seoul, South Korea'
             text='“This is very unusual for my business that currently requires a virtual private network that has high security.”.'
@@ -70,7 +70,7 @@ export const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <Slide
-            imgUrl='./customers/cust-3.svg'
+            imgUrl='./assets/customers/cust-3.svg'
             name='Kim Young Jou'
             location='Seoul, South Korea'
             text='“This is very unusual for my business that currently requires a virtual private network that has high security.”.'

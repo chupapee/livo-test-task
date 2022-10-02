@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Тестовое задание от Livo
+ 
+### Требования к заданию
+Необходимо сверстать макет desktop и mobile версии главной страницы сайта и сделать его адаптивным.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+При верстке постарайтесь использовать:
 
-## Available Scripts
+1. tailwind css
 
-In the project directory, you can run:
+2. vue.js предпочтительно (можно react.js)
 
-### `npm start`
+## Инструкция по проекту
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Демонстрация по ссылке: [LaslesVPN](http://test-task-livo.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align='center'>  
+  <img height='300px' src='https://i.ibb.co/q13YNbz/mobile.jpg' alt='mobileSize'/>
+  <img height='300px' src='https://i.ibb.co/ryG48vr/desktop.jpg' alt='desktopSize'/>
+</p>
 
-### `npm test`
+### Использованные библиотеки
+- React
+- Tailwind CSS - для динамической стилизации
+- Swiper - для написания слайдера (кнопки навигации и пагинации - кастомные)
+- React icons - для удобной загрузки иконок
+### Структура проекта
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+####  Директории
+- ```/public``` - Основная директория с исходным файлом
+- ```/public/assets/``` - Директория с картинками проекта
+- ```/src/``` - Исходный код проекта
 
-### `npm run build`
+#### Фичи
+- При входе в приложение, контент загружается плавно
+- Нажатие кнопок навигации в хедере проскроллит приложение к соответствующей секции
+- Все картинки "резиновые", при изменении размеров экрана качество не теряется
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Запуск
+Чтобы запустить проект локально, установите необходимые зависимости командой:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```npm install```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Затем, в директории проекта необходимо выполнить команду
 
-### `npm run eject`
+```npm start```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Перейдите в браузере по ссылке [http://localhost:3000](http://localhost:3000)
