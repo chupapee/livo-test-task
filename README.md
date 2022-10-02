@@ -15,7 +15,7 @@
 
 <p align='center'>  
   <img height='300px' src='https://i.ibb.co/q13YNbz/mobile.jpg' alt='mobileSize'/>
-  <img height='300px' src='https://i.ibb.co/ryG48vr/desktop.jpg' alt='desktopSize'/>
+  <img src='https://i.ibb.co/ryG48vr/desktop.jpg' alt='desktopSize'/>
 </p>
 
 ### Использованные библиотеки
