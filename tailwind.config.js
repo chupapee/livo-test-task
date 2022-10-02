@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [ // path куда надо компилировать tailwind в обычный css
+  content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
@@ -8,8 +8,10 @@ module.exports = {
       colors: {
         red: '#F53838',
         darkBlue: '#0B132A',
-        gray: '#4F5665',
+        gray: '#F8F8F8',
+        grayPrimary: '#4F5665',
         lightGray: '#AFB5C0',
+        green: '#2FAB73'
       },
       fontSize: {
         primary: '16px',
@@ -21,11 +23,15 @@ module.exports = {
         'widget': '0px 25px 50px -30px #F53838',
         'primary': '0px 20px 50px -20px #F53838',
       },
+      keyframes: {
+        smoothly: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        }
+      },
+      animation: {
+        smoothly: "smoothly 2.5s ease-in-out"
+      }
     },
   },
-  plugins: [
-    // plugin(({addComponents, theme, addUtilities}) => {
-    //   addComponents()
-    // })
-  ],
 }

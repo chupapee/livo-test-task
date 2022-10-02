@@ -46,6 +46,7 @@
   text-decoration: none;
   color: #4F5665;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 body {
