@@ -22,7 +22,7 @@ export const Footer = () => {
     <>
       <section id="Help">
         <div className="w-full bg-gray py-[60px]
-            absolute translate-y-[-150px] z-0 pt-[230px]
+            absolute translate-y-[-150px] z-0 pt-[205px]
         ">
           <div className="max-w-[1155px] px-[15px] flex lg:flex-row flex-col justify-between mx-auto">
             <div className="flex flex-col lg:items-start items-center">

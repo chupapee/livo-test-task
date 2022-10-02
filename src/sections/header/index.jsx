@@ -31,7 +31,7 @@ export const Header = () => {
     <>
       <header ref={headerRef} className="max-w-[1140px] justify-between fixed w-full
               backdrop-blur-md z-50 gap-[20px] pt-10 flex pb-[30px]
-              lg:pb-0 lg:items-center lg:h-[100px] lg:mb-10 lg:pt-0 md:mb-[100px]
+              lg:pb-0 lg:items-center lg:h-[100px] lg:mb-10 lg:pt-6 md:mb-[100px]
       ">
         <div className="ml-4 z-20">
           <Logo />

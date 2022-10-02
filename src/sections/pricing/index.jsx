@@ -5,7 +5,7 @@ export const Pricing = () => {
     <>
       <section id="Pricing">
         <div className="container-info text-center">
-          <h2 className="info-h">Choose Your Plan</h2>
+          <h2 className="info-h text-medium">Choose Your Plan</h2>
           <p className="info-p font-normal mb-[60px]">Let's choose the package that is best for you and explore it happily and cheerfully.</p>
         </div>
         <div className="grid gap-[50px] grid-cols-1 md:grid-cols-3">

@@ -28,14 +28,14 @@ export const Option = ({title = '', options = [], price = ''}) => {
             </div>
           ))}
         </div>
-        <div className="text-center flex flex-col self-end items-center mb-[50px] mt-[20px]">
+        <div className="text-center flex flex-col self-end items-center mb-[35px] mt-[20px]">
           <p className="font-medium text-darkBlue text-[25px] mb-2 md:mb-[20px]">
             {price}
             {price.length < 4 && <span className="font-medium text-grayPrimary"> / mo</span>}
           </p>
           <button onMouseLeave={handleLeave} onMouseEnter={handleHover}
-                  className="btn-sm px-[50px] py-[12px] border-2 border-red border-solid text-red font-bold
-                  hover:bg-red hover:text-white sm:px-[60px] lg:px-[80px] sm:py-[15px]
+                  className="btn-sm px-[70px] py-[12px] border-2 border-red border-solid text-red font-bold
+                  hover:bg-red hover:text-white sm:px-[60px] lg:px-[65px] sm:py-[15px]
           ">Select
           </button>
         </div>

@@ -7,18 +7,18 @@
   duration-100 p-4 left-[60%] top-[70%] bg-no-repeat
   content-[url('./assets/arrowRed.svg')] hover:content-[url('./assets/arrowWhite.svg')]
   hover:bg-red hover:text-white hover:rotate-180 after:content-none
-  sm:w-[60px] sm:h-[60px] sm:left-[65%] sm:top-[70%] lg:top-[78%] lg:left-[78%]
+  sm:w-[60px] sm:h-[60px] sm:left-[65%] sm:top-[70%] lg:top-[78%] lg:left-[86%]
 }
 .swiper-button-next {
   @apply w-[50px] h-[50px] border-2 rounded-full border-solid border-red
   duration-100 bg-no-repeat p-4 left-[80%] top-[70%] rotate-180
   content-[url('./assets/arrowRed.svg')] hover:content-[url('./assets/arrowWhite.svg')]
  hover:bg-red hover:text-white hover:rotate-0 after:content-none
-  sm:w-[60px] sm:h-[60px] sm:left-[75%] sm:top-[70%] lg:left-[85%] lg:top-[78%]
+  sm:w-[60px] sm:h-[60px] sm:left-[75%] sm:top-[70%] lg:left-[93%] lg:top-[78%]
 }
 
 .swiper-pagination-bullets {
-  @apply top-[67%] z-0 pr-[88%] whitespace-nowrap sm:top-[70%] lg:top-[78%]
+  @apply top-[67%] z-0 pr-[88%] whitespace-nowrap sm:top-[70%] lg:top-[76%]
 }
 
 .swiper-pagination-bullet {

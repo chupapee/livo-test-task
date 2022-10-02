@@ -5,11 +5,11 @@ export const Features = () => {
   const features = ['Powerfull online protection.', 'Internet without borders.', 'Supercharged VPN', 'No specific time limits.']
   return (
     <>
-      <section id="Features" className="container-section mb-[140px] md:mb-[200px] animate-smoothly">
+      <section id="Features" className="container-section mb-[140px] md:mb-[200px] animate-smoothly lg:gap-[60px]">
         <div className="container-img">
           <Img />
         </div>
-        <div className="container-info mt-16 md:mt-0">
+        <div className="container-info mt-16 md:mt-0 lg:max-w-[383px]">
           <h1 className="info-h">We Provide Many Features You Can Use</h1>
           <p className="info-p">You can explore the features that we provide with fun and have their own functions each feature.</p>
           <div className=" flex flex-col">
