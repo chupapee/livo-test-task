@@ -1,4 +1,5 @@
 import { About } from '../sections/about';
+import { Customers } from '../sections/customers';
 import { Features } from '../sections/features';
 import { Header } from '../sections/header';
 import { Pricing } from '../sections/pricing';
@@ -6,7 +7,6 @@ import { Testimonials } from '../sections/testimonials';
 import { Stats } from '../widgets/stats';
 
 export function App() {
-
   return (
     <>
       <div className='max-w-[1440px] mx-auto my-0'>
@@ -17,6 +17,7 @@ export function App() {
           <Features />
           <Pricing />
           <Testimonials />
+          <Customers />
         </div>
       </div>
     </>
