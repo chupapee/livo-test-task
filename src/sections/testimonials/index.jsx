@@ -12,11 +12,11 @@ export const Testimonials = () => {
           <Img />
         </div>
         <div className="flex max-h-[200px] justify-center items-center gap-4 cursor-pointer flex-wrap mt-[75px] mb-[150px] lg:gap-[30px] sm:mb-[40px]">
-          <img className="max-w-full h-[70px] lg:h-[110px]" src={'./assets/testimonials/netflix.jpg'} alt="netflix_icon" />
-          <img className="max-w-full h-[40px] lg:h-[50px]" src={'./assets/testimonials/reddit.jpg'} alt="reddit_icon" />
-          <img className="max-w-full h-[150px] lg:h-[210px]" src={'./assets/testimonials/amazon.jpg'} alt="amazon_icon" />
-          <img className="max-w-full h-[40px] lg:h-[64px]" src={'./assets/testimonials/discord.jpg'} alt="discord_icon" />
-          <img className="max-w-full h-[40px] lg:h-[50px]" src={'./assets/testimonials/spotify.jpg'} alt="spotify_icon" />
+          <img loading="lazy" className="max-w-full h-[70px] lg:h-[110px]" src={'./assets/testimonials/netflix.jpg'} alt="netflix_icon" />
+          <img loading="lazy" className="max-w-full h-[40px] lg:h-[50px]" src={'./assets/testimonials/reddit.jpg'} alt="reddit_icon" />
+          <img loading="lazy"  className="max-w-full h-[150px] lg:h-[210px]" src={'./assets/testimonials/amazon.jpg'} alt="amazon_icon" />
+          <img loading="lazy" className="max-w-full h-[40px] lg:h-[64px]" src={'./assets/testimonials/discord.jpg'} alt="discord_icon" />
+          <img loading="lazy" className="max-w-full h-[40px] lg:h-[50px]" src={'./assets/testimonials/spotify.jpg'} alt="spotify_icon" />
         </div>
       </section>
     </>
